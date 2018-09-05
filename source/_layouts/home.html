@@ -1,0 +1,120 @@
+{% extends "default" %}
+
+{% block head_meta %}
+    <meta name="robots" content="index, follow">
+{% endblock %}
+   
+{% block content_wrapper %}
+<section>
+  <div class="container">
+    <div class="section-p-0">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex align-items-center es-title-intro">
+            <h1 class="es-title">effective solutions<br><span class="es-title-up es-title-ac">for your mainframes</span></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services">
+  <div class="container">
+    <div class="section-p-1">
+      <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <a href="{{ site.url }}/retiring-a-mainframe" class="">
+              <h5 class="es-list-title service-title">Retiring a mainframe</h5>
+              <p class="es-list-node service-info">Retiring a mainframe can cost millions of dollars and take multiple years and yet there is no guarantee of the success.</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a href="{{ site.url }}/retiring-a-mainframe" class="">
+              <h5 class="es-list-title service-title">Modernization mainframe software</h5>
+              <p class="es-list-node service-info">Effective solutions can port your old Cobol or REXX programms to modern programming languages such as C++, Python, or Java.</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a href="{{ site.url }}/retiring-a-mainframe" class="">
+              <h5 class="es-list-title service-title">Replace aging mainframe personnel</h5>
+              <p class="es-list-node service-info">Your DBAs or system programmers are planning to retire and you cannot find somebody to replace them? Effective Solutions can support for existing environment for as long as you need.</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a href="{{ site.url }}/retiring-a-mainframe" class="">
+              <h5 class="es-list-title service-title">Installing modern software</h5>
+              <p class="es-list-node service-info">Effective solutions can port your old Cobol or REXX programms to modern programming languages such as C++, Python, or Java.</p>
+            </a>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="background1">
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 we-left we-img">
+          <div class="max-w we-block-left">
+            <h1 class="es-title es-title-up">who are we</h1>
+            <div class="we-list">
+                <h5 class="we-list-title">300</h5>
+                <p class="we-list-node">software engineers</p>
+                <h5 class="we-list-title">19</h5>
+                <p class="we-list-node">years</p>
+                <h5 class="we-list-title">10,000</h5>
+                <p class="we-list-node">partner customer installations worldwide  </p>
+            </div>
+            <a href="#" class="we-link">More about us</a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 we-right" style="background: #d4ebff;">
+          <div class="max-w we-block-right">
+            <h1 class="es-title es-title-up">what we do</h1>
+            <div class="we-list">
+                <h5 class="we-list-title">Development</h5>
+                <p class="we-list-node">a few words about the development</p>
+                <h5 class="we-list-title">Quality assurance</h5>
+                <p class="we-list-node">a few words about the quality assurance</p>
+                <h5 class="we-list-title">Support</h5>
+                <p class="we-list-node">a few words about the support</p>
+            </div>
+            <a href="#" class="we-link">More about our projects</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<section class="section1">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-4">
+            <h1 class="es-title" style="margin-bottom: -10px; margin-top: -20px; padding-bottom: 0;">success<br><span class="es-title-up es-title-ac">Stories</span></h1>
+            <img class="img-fluid d-none d-md-block" src="/images/office.jpg">
+          </div>
+          <div class="col-sm-8">
+              <div class="row">
+                  <div class="col-lg-6 col-12">
+                      <h5 class="es-list-title">Retiring a mainframe</h5>
+                      <p class="es-list-node">Applied Technologies does business with both local and foreign partners. The solutions the company offers its customers are not only unique in scope but have proven to be robust and of an exceptionally high quality. The company has a track record of completing cost effective development efforts within an accelerated time frame.</p>
+                      <h5 class="es-list-title">Retiring a mainframe</h5>
+                      <p class="es-list-node last-node-sm">Applied Technologies does business with both local and foreign partners. The solutions the company offers its customers are not only unique in scope but have proven to be robust and of an exceptionally high quality. </p>
+                  </div>
+                  <div class="col-lg-6 col-12">
+                      <h5 class="es-list-title">Modernization mainframe software</h5>
+                      <p class="es-list-node">Applied Technologies does business with both local and foreign partners. The solutions the company offers its customers are not only unique in scope but have proven to be robust and of an exceptionally high quality. </p>
+                      <h5 class="es-list-title">Modernization mainframe software</h5>
+                      <p class="es-list-node last-node-sm">Applied Technologies does business with both local and foreign partners. The solutions the company offers its customers are not only unique in scope but have proven to be robust and of an exceptionally high quality. The company has a track record of completing cost effective development efforts within an accelerated time frame.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block before_footer %}
+    {% include 'map.html' %}
+{% endblock %}

@@ -1,0 +1,30 @@
+<!-- Header -->
+<header>
+    <nav class="navbar navbar-light navbar-expand-md bg-faded">
+        <div class="container">
+            <a class="navbar-brand brand" href="{{ site.url }}/"><span>{{ site.title1 }}</span>{{ site.title2 }}</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                      <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">services</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{{ site.url }}/retiring-a-mainframe">Retiring a mainframe</a>
+                        <a class="dropdown-item active" href="{{ site.url }}/retiring-a-mainframe">Modernization mainframe software</a>
+                        <a class="dropdown-item" href="{{ site.url }}/retiring-a-mainframe">Replace aging mainframe personnel</a>
+                        <a class="dropdown-item" href="{{ site.url }}/retiring-a-mainframe">Installing modern software</a>
+                      </div>
+                    </li>                    
+                    
+                    
+                    <li class="nav-item"><a class="nav-link{{ page.is_processes ? ' active' }}" href="{{ site.url }}/processes">processes</a></li>
+                    <li class="nav-item"><a class="nav-link{{ page.is_projects ? ' active' }}" href="{{ site.url }}/projects">projects</a></li>
+                    <li class="nav-item"><a class="nav-link{{ page.is_about ? ' active' }}" href="{{ site.url }}/about-us">about us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+

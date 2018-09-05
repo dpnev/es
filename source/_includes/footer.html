@@ -1,0 +1,13 @@
+{% block footer %}
+<!-- Footer -->
+<footer class="background3">
+  <div class="container">
+    <div class="footer-content section-p-0">
+      <div class="row">
+        <div class="col-sm text-right"><span class="font-weight-bold">{{ site.phone }}</span><br><br><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>      
+        <div class="col-sm text-left">{{ site.address|raw }}</div>      
+      </div>      
+    </div>      
+  </div>      
+</footer>
+{% endblock %}

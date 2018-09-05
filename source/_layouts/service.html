@@ -1,0 +1,26 @@
+{% extends "default" %}
+
+{% block head_meta %}
+    <meta name="robots" content="index, follow">
+{% endblock %}
+
+{% block content_wrapper %}
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <header>
+            <h1>{{ page.title|upper }}</h1>
+        </header>
+        <div>
+            {{ page.blocks.content|raw }}
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+{% endblock %}
+
+{% block before_footer %}
+    {% include 'map.html' %}
+{% endblock %}
