@@ -26,6 +26,16 @@ body > main.container {
   }
 }
 
+.container-fix {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-item:last-child > .nav-link {
+  margin-right: 0;
+}
+
+
 a {
   color: #6dbdff;
   text-decoration: underline;
