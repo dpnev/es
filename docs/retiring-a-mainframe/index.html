@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="theme-color" content="#ffffff">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="robots" content="index, follow">
+      <meta name="robots" content="index, follow">
     <link href="https://dpnev.github.io/es/components/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet" type="text/css" />
     <link href="https://dpnev.github.io/es/components/akrobat/stylesheet.css"  rel="stylesheet" type="text/css" />
@@ -68,51 +68,57 @@
 
     <main role="main">
       <article>
-  <div class="container">
+  <div class="container article-container">
     <div class="row">
       <div class="col">
         <header>
-            <h1>RETIRING A MAINFRAME</h1>
+            <h1 class="es-1 text-1 title-image-r">RETIRING A MAINFRAME</h1>
         </header>
         <div>
-            <h2 id="header-2">Header 2<img src="https://dpnev.github.io/es/images/cod.jpg" class="float-right" style="margin-left:48px;margin-bottom:63px;"></h2>
+            <h2 class="es-2">Header 2</h2>
 
-<h3 id="header-3">Header 3</h3>
+<div><img src="https://dpnev.github.io/es/images/cod.jpg" class="img-fluid es-image_right es-image_in-header"></div>
 
-<p>Retiring a mainframe can cost millions of dollars and take multiple years and yet there is no guarantee of the 
-success. Effective solutions can port your old Cobol or REXX programms to modern programming languages such as <a 
-href="#">C++</a>, Python, or Java. Your DBAs or system programmers are planning to retire and you cannot find 
-somebody to replace them? Effective Solutions can support for existing environment for as long as you need. 
-Effective solutions can port your old Cobol or REXX programms to modern programming languages such as C++, 
-Python, or Java.</p>
+<h3 class="es-3">Header 3</h3>
 
-<p>Retiring a mainframe can cost millions of dollars and take multiple years and yet there is no guarantee of the 
-success. Effective solutions can port your old Cobol or REXX programms to modern programming languages such as 
-C++, Python, or Java. Your DBAs or system programmers are planning to retire and you cannot find somebody to 
-replace them? Effective Solutions can support for existing environment for as long as you need. Effective 
-solutions can port your old Cobol or REXX programms to modern programming languages such as C++, Python, or Java.</p>
+<p class="resource-block">
+Retiring a mainframe can cost millions of dollars and take multiple years and yet there is no guarantee of the
+success. Effective solutions can port your old Cobol or REXX programms to modern programming languages such as <a
+href="#">C++</a>, Python, or Java. Your DBAs or system programmers are planning to retire and you cannot find
+somebody to replace them? Effective Solutions can support for existing environment for as long as you need.
+Effective solutions can port your old Cobol or REXX programms to modern programming languages such as C++,
+Python, or Java.
+</p>
 
-<h2 id="lists">Lists</h2>
+<p class="resource-block">
+Retiring a mainframe can cost millions of dollars and take multiple years and yet there is no guarantee of the
+success. Effective solutions can port your old Cobol or REXX programms to modern programming languages such as
+C++, Python, or Java. Your DBAs or system programmers are planning to retire and you cannot find somebody to
+replace them? Effective Solutions can support for existing environment for as long as you need. Effective
+solutions can port your old Cobol or REXX programms to modern programming languages such as C++, Python, or Java.
+</p>
 
-<h3 id="bulleted-list">Bulleted list</h3>
+<h2 class="es-2">Lists</h2>
 
-<ul class="list-unstyled">
+<h3 class="es-3">Bulleted list</h3>
+
+<ul class="list-unstyled resource-block">
   <li class="es-list-node">Retiring a mainframe can cost millions of dollars and take multiple years and yet there is no guarantee of the success. </li>
   <li class="es-list-node">Effective solutions can port your old Cobol or REXX programms to modern programming languages </li>
   <li class="es-list-node">Effective Solutions can support for existing environment for as long as you need. </li>
 </ul>
 
-<h3 id="numbered-list">Numbered list</h3>
+<h3 class="es-3">Numbered list</h3>
 
-<ol class="es-ol">
+<ol class="es-ol resource-block">
 <li class="es-li">Retiring a mainframe can cost millions of dollars and take multiple years and yet there is no guarantee of the success.</li>
 <li class="es-li">Effective solutions can port your old Cobol or REXX programms to modern programming languages.</li>
 <li class="es-li">Effective Solutions can support for existing environment for as long as you need.</li>
 </ol>
 
-<h2 id="table">Table</h2>
+<h2 class="es-2">Table</h2>
 
-<div class="">
+<div class="table__container">
   <table class="table table-striped">
     <thead>
       <tr>
@@ -148,24 +154,24 @@ solutions can port your old Cobol or REXX programms to modern programming langua
 </article>
     </main>
     
-        <section class="background2">  
-  <!-- 
+      <section class="background2">
+  <!--
       You need to include this script tag on any page that has a Google Map.
 
       The following script tag will work when opening this example locally on your computer.
-      But if you use this on a localhost server or a live website you will need to include an API key. 
-      Sign up for one here (it's free for small usage): 
+      But if you use this on a localhost server or a live website you will need to include an API key.
+      Sign up for one here (it's free for small usage):
           https://developers.google.com/maps/documentation/javascript/tutorial#api_key
 
       After you sign up, use the following script tag with YOUR_GOOGLE_API_KEY replaced with your actual key.
           <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_API_KEY"></script>
   -->
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-  
+
   <script type="text/javascript">
       // When the window has finished loading create our google map below
       google.maps.event.addDomListener(window, 'load', init);
-  
+
       function init() {
           //return;
           // Basic options for a simple Google Map
@@ -175,16 +181,16 @@ solutions can port your old Cobol or REXX programms to modern programming langua
               zoom: 11,
 
               // The latitude and longitude to center the map (always required)
-              center: new google.maps.LatLng(40.6700, -73.9400), 
-              
+              center: new google.maps.LatLng(40.6700, -73.9400),
+
               disableDefaultUI: true,
 
-              // How you would like to style the map. 
+              // How you would like to style the map.
               // This is where you would paste any style found on Snazzy Maps.
               styles: [{"featureType":"all","elementType":"all","stylers":[{"invert_lightness":true},{"saturation":10},{"lightness":30},{"gamma":0.5},{"hue":"#435158"}]}]
           };
 
-          // Get the HTML DOM element that will contain your map 
+          // Get the HTML DOM element that will contain your map
           // We are using a div with id="map" seen below in the <body>
           var mapElement = document.getElementById('map');
 
@@ -205,10 +211,10 @@ solutions can port your old Cobol or REXX programms to modern programming langua
           <div class="form-l form-img"></div>
         </div>
         <div class="col-sm-12 col-md-6">
-          <div class="max-w form-r">
-            <h1 class="es-title es-title-up">Have a question?</h1>
+          <div class="max-w form-r section-colored">
+            <h1 class="es-1 text-uppercase color-2">Have a question?</h1>
             <div class="form-block">
-              <form id="contact-form" method="post" action="contact.php" role="form">
+              <form id="contact-form" method="post">
                   <div class="controls">
                     <div class="form-group field">
                         <input id="form_name" type="text" name="name" class="es-form" placeholder=" " required="required">
@@ -230,30 +236,46 @@ solutions can port your old Cobol or REXX programms to modern programming langua
                         <textarea rows=5 id="form_message" name="message" class="es-form" placeholder=" " rows="5" required="required"></textarea>
                         <label for="form_message">subject</label>
                     </div>
-                    <input type="submit" class="btn btn-send" value="SEND">
+                    <input type="button" class="btn btn-send btn-send_form" id="submit" onclick="SubmitFormData();" value="SEND">
                   </div>
               </form>
+
+              <div id="submit-result" class="done" onclick="document.getElementById('submit-result').style.display='none'">
+                <div class="done__block">
+                  <div class="done__cross"></div>
+                  <div class="es-3 done__title">Thank you!</div>
+                  <div class="done__message">
+                    Your message has been sent successfully.<br>
+                    We will contact you as soon as we receive it.
+                  </div>
+                  <div>
+                  <div class="btn btn-send done__button flow-center">OK</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
   </div>
 </section>
+
     <!-- Footer -->
 <footer class="background3">
   <div class="container">
-    <div class="footer-content section-p-0">
+    <div class="footer-content section-footer">
       <div class="row">
-        <div class="col-sm text-right"><span class="font-weight-bold">+7 (351) 799-52-99</span><br><br><a href="mailto:info@appliedtech.ru">info@appliedtech.ru</a></div>      
-        <div class="col-sm text-left">&#8220;Applied Technologies, Ltd.&#8221;<br>29, Komsomolsky Ave.,<br>Chelyabinsk city<br>The Russian Federation<br>454112</div>      
-      </div>      
-    </div>      
-  </div>      
+        <div class="col-sm text-right"><span class="font-weight-bold">+7 (351) 799-52-99</span><br><br><a href="mailto:info@appliedtech.ru">info@appliedtech.ru</a></div>
+        <div class="col-sm text-left">&#8220;Applied Technologies, Ltd.&#8221;<br>29, Komsomolsky Ave.,<br>Chelyabinsk city<br>The Russian Federation<br>454112</div>
+      </div>
+    </div>
+  </div>
 </footer>
 
     <script src="https://dpnev.github.io/es/components/jquery/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://dpnev.github.io/es/components/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://dpnev.github.io/es/submit.js"></script>
         
     
           </body>

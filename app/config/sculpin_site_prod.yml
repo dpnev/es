@@ -1,0 +1,14 @@
+# The contents of this file are parsed and made available as
+# via `site.*`. So for example, {{ site.title }} can be used
+# in a template to get the contents of the `title` key.
+url: https://dpnev.github.io/es/
+title: Effective Solution
+title1: effective
+title2: solution
+subtitle: To Get You Started
+location: 40.6700, -73.9400
+
+# Footer
+address: "&#8220;Applied Technologies, Ltd.&#8221;<br>29, Komsomolsky Ave.,<br>Chelyabinsk city<br>The Russian Federation<br>454112"
+phone: +7 (351) 799-52-99
+email: info@appliedtech.ru
