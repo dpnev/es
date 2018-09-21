@@ -561,7 +561,7 @@ input:focus + label {
 }
 
 .btn-send {
-  width: 219px;
+  max-width: 219px;
   height: 40px;
   background-color: #6dbdff;
   font-family: Akrobat;
@@ -570,6 +570,8 @@ input:focus + label {
   line-height: 1;
   color: #ffffff;
   border-radius: 0;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .btn-send_form {
@@ -603,7 +605,7 @@ textarea {
   position: relative;
   padding: 40px;
   outline: 0;
-  width: 400px;
+  //width: 400px;
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -654,13 +656,20 @@ footer {
   line-height: 1.5;
 }
 
-/*---------------------------------*/
-
-article p {
-  padding-left: 45px;
+.footer__phone {
+  min-height: 3em;
 }
 
-article-container {
+.footer__col-first {
+  text-align: right;
+}
+/*---------------------------------*/
+
+/* article p {
+  padding-left: 45px;
+} */
+
+.article-container {
   padding-top: 150px;
 }
 
@@ -816,4 +825,17 @@ article-container {
     padding-right: 0; 
     padding-left: 0; 
   }  
+  .footer__phone {
+    min-height: 1em;
+  }
+  .footer__col-first {
+    text-align: left;
+  }
+  .resource-block {
+    max-width: unset;
+  }
+  .table__container {
+    margin-left: unset;
+    margin-right: unset;
+  }
 }
