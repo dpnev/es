@@ -6,7 +6,7 @@ path: services
 is_modernization_mainframe_software: true
 ---
 
-<h2 class="es-2"><img src="{{ site.url }}images/cod.jpg" class="img-fluid es-image_right es-image_in-header">CONSIDERING MODERNIZING YOUR MAINFRAME SOFTWARE?</h2>
+<h2 class="es-2"><img src="{{ site.url }}/images/cod.jpg" class="img-fluid es-image_right es-image_in-header">CONSIDERING MODERNIZING YOUR MAINFRAME SOFTWARE?</h2>
 
 <h3 class="es-3">Leverage the power of the mainframe</h3>
 

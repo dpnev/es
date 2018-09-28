@@ -6,7 +6,7 @@ path: services
 is_retiring_a_mainframe: true
 ---
 
-<h2 class="es-2"><img src="{{ site.url }}images/cod.jpg" class="img-fluid es-image_right es-image_in-header">PLANNING ON RETIRING YOUR BIG IRON?</h2>
+<h2 class="es-2"><img src="{{ site.url }}/images/cod.jpg" class="img-fluid es-image_right es-image_in-header">PLANNING ON RETIRING YOUR BIG IRON?</h2>
 
 <h3 class="es-3">Our capabilities</h3>
 

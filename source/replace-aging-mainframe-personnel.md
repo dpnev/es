@@ -6,7 +6,7 @@ path: services
 is_replace_aging_mainframe_personnel: true
 ---
 
-<h2 class="es-2"><img src="{{ site.url }}images/cod.jpg" class="img-fluid es-image_right es-image_in-header">TRYING TO REPLACE AGING MAINFRAME PERSONNEL?</h2>
+<h2 class="es-2"><img src="{{ site.url }}/images/cod.jpg" class="img-fluid es-image_right es-image_in-header">TRYING TO REPLACE AGING MAINFRAME PERSONNEL?</h2>
 
 <h3 class="es-3">Header 3</h3>
 
