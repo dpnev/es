@@ -1,77 +1,34 @@
 ---
 layout: service
-title: Retiring a mainframe
+title: RETIRING A MAINFRAME
 body_classes: retiring-a-mainframe
 path: services
+is_retiring_a_mainframe: true
 ---
 
-<h2 class="es-2">Header 2</h2>
-<div><img src="{{ site.url }}images/cod.jpg" class="img-fluid es-image_right es-image_in-header"></div>
+<h2 class="es-2"><img src="{{ site.url }}images/cod.jpg" class="img-fluid es-image_right es-image_in-header">PLANNING ON RETIRING YOUR BIG IRON?</h2>
 
-<h3 class="es-3">Header 3</h3>
+<h3 class="es-3">Our capabilities</h3>
 
-
-<p class="resource-block">
-Retiring a mainframe can cost millions of dollars and take multiple years and yet there is no guarantee of the
-success. Effective solutions can port your old Cobol or REXX programms to modern programming languages such as <a
-href="#">C++</a>, Python, or Java. Your DBAs or system programmers are planning to retire and you cannot find
-somebody to replace them? Effective Solutions can support for existing environment for as long as you need.
-Effective solutions can port your old Cobol or REXX programms to modern programming languages such as C++,
-Python, or Java.
+<p class="article-block article-p">
+There are few examples of successful transition from mainframes to other platforms. Often such projects do not succeed because of wrong time and resource estimations.
 </p>
 
-<p class="resource-block">
-Retiring a mainframe can cost millions of dollars and take multiple years and yet there is no guarantee of the
-success. Effective solutions can port your old Cobol or REXX programms to modern programming languages such as
-C++, Python, or Java. Your DBAs or system programmers are planning to retire and you cannot find somebody to
-replace them? Effective Solutions can support for existing environment for as long as you need. Effective
-solutions can port your old Cobol or REXX programms to modern programming languages such as C++, Python, or Java.
+<p class="article-block article-p">
+To correctly evaluate required resources and complete transition successfully you need qualified specialists in both platforms: the one you are leaving and the one that you are switching to.  
 </p>
 
-<h2 class="es-2">Lists</h2>
-<h3 class="es-3">Bulleted list</h3>
+<p class="article-block article-p">
+Effective Solutions has the expertise and resources to help you make a transition from mainframes to almost any modern platform. 
+</p>
+
+<h3 class="es-3">We will help your organization to</h3>
 
 <ul class="list-unstyled resource-block">
-  <li class="es-list-node">Retiring a mainframe can cost millions of dollars and take multiple years and yet there is no guarantee of the success. </li>
-  <li class="es-list-node">Effective solutions can port your old Cobol or REXX programms to modern programming languages </li>
-  <li class="es-list-node">Effective Solutions can support for existing environment for as long as you need. </li>
+  <li class="es-list-node">Assess the complexity of the move from mainframe and advise either a complete or partial transition</li>
+  <li class="es-list-node">Suggest the most suitable platform and the most efficient programming languages for new software implementations</li>
+  <li class="es-list-node">Create a transition plan</li>
+  <li class="es-list-node">Rewrite existing software solutions in new programming languages</li>
+  <li class="es-list-node">Migrate data to new platform</li>
+  <li class="es-list-node">Maintain new solution and teach your personnel</li>
 </ul>
-
-<h3 class="es-3">Numbered list</h3>
-
-<ol class="es-ol resource-block">
-<li class="es-li">Retiring a mainframe can cost millions of dollars and take multiple years and yet there is no guarantee of the success.</li>
-<li class="es-li">Effective solutions can port your old Cobol or REXX programms to modern programming languages.</li>
-<li class="es-li">Effective Solutions can support for existing environment for as long as you need.</li>
-</ol>
-
-<h2 class="es-2">Table</h2>
-
-<div class="table__container">
-  <table class="table table-striped">
-    <thead>
-      <tr>
-        <th scope="col">Services</th>
-        <th scope="col">Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td scope="row">Retiring a mainframe</td>
-        <td>Retiring a mainframe can cost millions of dollars and take multiple years.</td>
-      </tr>
-      <tr>
-        <td scope="row">Modernization mainframe software</td>
-        <td>Effective solutions can port your old Cobol or REXX programms to modern programming languages.</td>
-      </tr>
-      <tr>
-        <td scope="row">Replace aging mainframe personnel</td>
-        <td>Your DBAs or system programmers are planning to retire and you cannot find somebody to replace them? Effective Solutions can support for existing environment for as long as you need.</td>
-      </tr>
-      <tr>
-        <td scope="row">Installing modern software</td>
-        <td>Effective solutions can port your old Cobol or REXX programms to modern programming languages.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
